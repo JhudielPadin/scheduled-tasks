@@ -6,6 +6,9 @@ import smtplib
 MY_EMAIL = "jhudiel243@gmail.com"
 MY_PASSWORD = "lqmn jdme avzt pbpm"
 
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
+
 now = dt.datetime.now()
 today_tuple = (now.month, now.day)
 print(today_tuple)
