@@ -1,5 +1,1 @@
-pandas
-random
-smtplib
-datetime
-os
+pandaS
